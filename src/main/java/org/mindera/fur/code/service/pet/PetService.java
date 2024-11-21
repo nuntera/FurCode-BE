@@ -276,4 +276,3 @@ public class PetService {
                 .orElseThrow(() -> new EntityNotFoundException(PetMessages.PET_TYPE_NOT_FOUND + id));
     }
 }
-
