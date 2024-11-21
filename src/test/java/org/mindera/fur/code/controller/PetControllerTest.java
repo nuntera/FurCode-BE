@@ -1332,3 +1332,4 @@ class PetControllerTest {
         assertNull(petsCache.get(SimpleKey.EMPTY), "Pets list cache should be evicted after deletion");
     }
 }
+
